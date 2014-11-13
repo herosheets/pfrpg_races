@@ -65,7 +65,7 @@ class PfrpgRaces::Race::Dwarf < PfrpgRaces::Race
 
   def traits
     [
-      RacialTrait.new( :name => "Slow and Steady",
+      PfrpgRaces::RacialTrait.new( :name => "Slow and Steady",
                        :description =>
                         "20FT base speed / not modified by encumbrance or armor",
                        :effects =>
@@ -73,22 +73,22 @@ class PfrpgRaces::Race::Dwarf < PfrpgRaces::Race
                           noarmor_effect
                         ]
                       ),
-      RacialTrait.new( :name => "Defensive Training",
+      PfrpgRaces::RacialTrait.new( :name => "Defensive Training",
                        :description => "+4 dodge AC bonus vs. Giants"
                      ),
-      RacialTrait.new( :name => "Greed",
+      PfrpgRaces::RacialTrait.new( :name => "Greed",
                        :description => "+2 appraise checks w/ precious metals or gemstones"
                      ),
-      RacialTrait.new( :name => "Hatred",
+      PfrpgRaces::RacialTrait.new( :name => "Hatred",
                        :description => "+1 attack bonus vs/ orc & goblinoid"
                      ),
-      RacialTrait.new( :name => "Hardy",
+      PfrpgRaces::RacialTrait.new( :name => "Hardy",
                        :description => "+2 save vs poison, spells and spell-like abilities"
                      ),
-      RacialTrait.new( :name => "Stabililty",
+      PfrpgRaces::RacialTrait.new( :name => "Stabililty",
                       :description => "+4 CMD vs bull rush or trip"
                      ),
-      RacialTrait.new( :name => "Stonecunning",
+      PfrpgRaces::RacialTrait.new( :name => "Stonecunning",
                       :description => "+2 perception check vs unusual stonework"
                      )
     ]

@@ -53,10 +53,10 @@ class PfrpgRaces::Race::Halfling < PfrpgRaces::Race
 
   def traits
     [
-      RacialTrait.new( :name => "Fearless",
+      PfrpgRaces::RacialTrait.new( :name => "Fearless",
                        :description => "+2 racial bonus save vs fear (This stacks with Luck)"
                      ),
-      RacialTrait.new( :name => "Halfling Luck",
+      PfrpgRaces::RacialTrait.new( :name => "Halfling Luck",
                        :description => "+1 racial bonus to all saving throws",
                        :effects =>
                         [
@@ -65,7 +65,7 @@ class PfrpgRaces::Race::Halfling < PfrpgRaces::Race
                           PfrpgCore::Effect.new("racial", "ref_save", 1)
                         ]
                      ),
-      RacialTrait.new( :name => "Sure Footed",
+      PfrpgRaces::RacialTrait.new( :name => "Sure Footed",
                        :description => "+2 racial bonus on Acrobatic & Climb skill checks",
                        :effects =>
                         [
@@ -73,7 +73,7 @@ class PfrpgRaces::Race::Halfling < PfrpgRaces::Race
                           PfrpgCore::Effect.new("skill", "acrobatics", 2)
                         ]
                      ),
-      RacialTrait.new( :name => "Keen Senses",
+      PfrpgRaces::RacialTrait.new( :name => "Keen Senses",
                        :description => "+2 Perception",
                        :effects =>
                         [

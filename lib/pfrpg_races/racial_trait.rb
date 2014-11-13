@@ -1,5 +1,5 @@
 module PfrpgRaces
-  class RacialTrait
+  class PfrpgRaces::RacialTrait
 
     attr_accessor :name, :description, :effects
     def initialize(args)

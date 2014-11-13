@@ -54,22 +54,22 @@ class PfrpgRaces::Race::Gnome < PfrpgRaces::Race
 
   def traits
     [
-      RacialTrait.new( :name => "Low-Light Vision",
+      PfrpgRaces::RacialTrait.new( :name => "Low-Light Vision",
                        :description => "See 2x as far in dim light"
                      ),
-      RacialTrait.new( :name => "Defensive Training",
+      PfrpgRaces::RacialTrait.new( :name => "Defensive Training",
                        :description => "+4 dodge AC vs giant monsters"
                      ),
-      RacialTrait.new( :name => "Hatred",
+      PfrpgRaces::RacialTrait.new( :name => "Hatred",
                        :description => "+1 ATK Bonus vs reptilian humanoids and goblinoid subtypes"
                      ),
-      RacialTrait.new( :name => "Illusion Resistance",
+      PfrpgRaces::RacialTrait.new( :name => "Illusion Resistance",
                        :description => "+2 save vs illusion spells and effects"
                      ),
-      RacialTrait.new( :name => "Obsessive",
+      PfrpgRaces::RacialTrait.new( :name => "Obsessive",
                        :description => "+2 to Craft or Profession skill of your choice"
                      ),
-      RacialTrait.new( :name => "Gnome Magic",
+      PfrpgRaces::RacialTrait.new( :name => "Gnome Magic",
                        :description => "+1 to DC of any saving throws against illusions they cast, \n
                                         with >= 11 Charisma, gain spell-like abilities once per day:\n
                                         \tdancing lights,\n
@@ -78,7 +78,7 @@ class PfrpgRaces::Race::Gnome < PfrpgRaces::Race
                                         \tspeak with animals\n
                                         The DC for these spells is 10 + spell level + CHA mod",
                      ),
-      RacialTrait.new( :name => "Keen Senses",
+      PfrpgRaces::RacialTrait.new( :name => "Keen Senses",
                        :description => "+2 Perception",
                        :effects =>
                         [

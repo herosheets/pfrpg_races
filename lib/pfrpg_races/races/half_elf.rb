@@ -50,19 +50,19 @@ class PfrpgRaces::Race::HalfElf < PfrpgRaces::Race
 
   def traits
     [
-      RacialTrait.new( :name => "Low-Light Vision",
+      PfrpgRaces::RacialTrait.new( :name => "Low-Light Vision",
                        :description => "See 2x as far in dim light"
                      ),
-      RacialTrait.new( :name => "Elven Immunities",
+      PfrpgRaces::RacialTrait.new( :name => "Elven Immunities",
                        :description => "Immune to Magic Sleep, +2 save vs enchantments"
                      ),
-      RacialTrait.new( :name => "Elf Blood",
+      PfrpgRaces::RacialTrait.new( :name => "Elf Blood",
                        :description => "Count as both Elves and Humans for effects"
                      ),
-      RacialTrait.new( :name => "Multitalented",
+      PfrpgRaces::RacialTrait.new( :name => "Multitalented",
                        :description => "You have two, instead of one, favored class"
                      ),
-      RacialTrait.new( :name => "Keen Senses",
+      PfrpgRaces::RacialTrait.new( :name => "Keen Senses",
                        :description => "+2 Perception",
                        :effects =>
                         [

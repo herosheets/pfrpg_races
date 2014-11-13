@@ -50,20 +50,20 @@ class PfrpgRaces::Race::HalfOrc < PfrpgRaces::Race
 
   def traits
     [
-      RacialTrait.new( :name => "Darkvision",
+      PfrpgRaces::RacialTrait.new( :name => "Darkvision",
                        :description => "See in the dark up to 60 feet"
                      ),
-      RacialTrait.new( :name => "Intimidating",
+      PfrpgRaces::RacialTrait.new( :name => "Intimidating",
                        :description => "+2 racial bonus to intimidate skill checks",
                        :effects =>
                         [
                           PfrpgCore::Effect.new("skill", "intimidate", 2)
                         ]
                      ),
-      RacialTrait.new( :name => "Orc Blood",
+      PfrpgRaces::RacialTrait.new( :name => "Orc Blood",
                        :description => "Count as both Orc and Human"
                      ),
-      RacialTrait.new( :name => "Orc Ferocity",
+      PfrpgRaces::RacialTrait.new( :name => "Orc Ferocity",
                        :description => "1/day, if you are brought below 0 HP but not killed,\n
                                         you can fight on for one round as if disabled. You begin\n
                                         dying and fall unconscious if are not brought above 0 HP."
