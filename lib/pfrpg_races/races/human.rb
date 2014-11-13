@@ -1,4 +1,4 @@
-class Human < PfrpgRaces::Race
+class PfrpgRaces::Race::Human < PfrpgRaces::Race
 
   def name
     "Human"
@@ -29,7 +29,7 @@ class Human < PfrpgRaces::Race
   end
 
   def int_languages
-    Tables::Languages.int_languages
+    PfrpgTables::Tables::Languages.int_languages
   end
 
   def size

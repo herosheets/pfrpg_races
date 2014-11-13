@@ -1,4 +1,4 @@
-class Dwarf < PfrpgRaces::Race
+class PfrpgRaces::Race::Dwarf < PfrpgRaces::Race
 
   def name
     "Dwarf"
