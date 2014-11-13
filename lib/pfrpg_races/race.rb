@@ -11,13 +11,13 @@ module PfrpgRaces
 
     def self.race_list
       [
-        Dwarf.new,
-        Human.new,
-        Gnome.new,
-        HalfElf.new,
-        Elf.new,
-        HalfOrc.new,
-        Halfling.new
+        PfrpgRaces::Race::Dwarf.new,
+        PfrpgRaces::Race::Human.new,
+        PfrpgRaces::Race::Gnome.new,
+        PfrpgRaces::Race::HalfElf.new,
+        PfrpgRaces::Race::Elf.new,
+        PfrpgRaces::Race::HalfOrc.new,
+        PfrpgRaces::Race::Halfling.new
       ]
     end
 
