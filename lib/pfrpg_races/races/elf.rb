@@ -14,9 +14,9 @@ class PfrpgRaces::Race::Elf < PfrpgRaces::Race
 
   def attribute_bonuses
     [
-      { 'DEX' => 2 },
-      { 'INT' => 2 },
-      { 'CON' => -2 }
+        PfrpgRaces::StatBonus.new('DEX',2),
+        PfrpgRaces::StatBonus.new('INT',2),
+        PfrpgRaces::StatBonus.new('CON',-2)
     ]
   end
 

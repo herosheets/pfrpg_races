@@ -17,9 +17,9 @@ class PfrpgRaces::Race::Dwarf < PfrpgRaces::Race
   end
 
   def attribute_bonuses
-    [ RacialStatBonus.dangling('CON', 2),
-      RacialStatBonus.dangling('WIS', 2),
-      RacialStatBonus.dangling('CHA',-2)
+    [ PfrpgRaces::StatBonus.new('CON', 2),
+      PfrpgRaces::StatBonus.new('WIS', 2),
+      PfrpgRaces::StatBonus.new('CHA',-2)
     ]
   end
 

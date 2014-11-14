@@ -13,9 +13,10 @@ class PfrpgRaces::Race::Halfling < PfrpgRaces::Race
   end
 
   def attribute_bonuses
-    [   { 'DEX' => 2 },
-        { 'CHA' => 2 },
-        { 'STR' => -2 }
+    [
+        PfrpgRaces::StatBonus.new('DEX',2),
+        PfrpgRaces::StatBonus.new('CHA',2),
+        PfrpgRaces::StatBonus.new('STR',-2)
     ]
   end
 

@@ -14,9 +14,9 @@ class PfrpgRaces::Race::Gnome < PfrpgRaces::Race
 
   def attribute_bonuses
     [
-          { 'CON' => 2 },
-          { 'CHA' => 2 },
-          { 'STR' => -2 }
+        PfrpgRaces::StatBonus.new('CON',2),
+        PfrpgRaces::StatBonus.new('CHA',2),
+        PfrpgRaces::StatBonus.new('STR',-2),
     ]
   end
 

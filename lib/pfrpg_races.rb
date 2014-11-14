@@ -1,4 +1,5 @@
 require 'pfrpg_races/race'
+require 'pfrpg_races/stat_bonus'
 require 'pfrpg_races/racial_trait'
 require 'pfrpg_races/raced'
 require 'pfrpg_races/races/elf'
