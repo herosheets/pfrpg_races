@@ -3,6 +3,7 @@ module PfrpgRaces
 
     def self.fetch(race_str)
       begin
+        race_str = "PfrpgRaces::Race::#{race_str}" unless race_str['PfrpgRaces::Race']
         return Object::const_get(race_str).new
       rescue Exception
         return nil
