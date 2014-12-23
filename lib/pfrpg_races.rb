@@ -1,3 +1,6 @@
+module PfrpgRules
+end
+
 require 'pfrpg_races/race'
 require 'pfrpg_races/stat_bonus'
 require 'pfrpg_races/racial_trait'
@@ -9,6 +12,3 @@ require 'pfrpg_races/races/half_orc'
 require 'pfrpg_races/races/half_elf'
 require 'pfrpg_races/races/gnome'
 require 'pfrpg_races/races/human'
-
-module PfrpgRules
-end

@@ -13,9 +13,9 @@ gemspec
 # To use debugger
 # gem 'debugger'
 
-gem 'pfrpg_tables', :git => 'https://github.com/jsomara/pfrpg_tables.git'
-gem 'pfrpg_core', :git => 'https://github.com/jsomara/pfrpg_core.git'
-gem 'pfrpg_skills', :git => 'https://github.com/jsomara/pfrpg_skills.git'
+gem 'pfrpg_tables', '>= 0.1.0'
+gem 'pfrpg_core'
+gem 'pfrpg_skills', '>= 0.1.0'
 
 group :test do
   gem 'minitest-rails'
