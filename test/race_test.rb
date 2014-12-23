@@ -10,7 +10,7 @@ class RaceTest < Minitest::Test
     assert PfrpgRaces::Race.fetch('Human')
     assert PfrpgRaces::Race.fetch('Gnome')
     assert PfrpgRaces::Race.fetch('HalfElf')
-    assert PfrpgRaces::Race.fetch('HalfOrf')
+    assert PfrpgRaces::Race.fetch('HalfOrc')
   end
 
 end

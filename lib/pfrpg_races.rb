@@ -1,3 +1,6 @@
+
+require 'pfrpg_utility'
+
 module PfrpgRaces
 end
 
