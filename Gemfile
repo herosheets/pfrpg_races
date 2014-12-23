@@ -14,9 +14,5 @@ gemspec
 # gem 'debugger'
 
 gem 'pfrpg_tables', '>= 0.1.0'
-gem 'pfrpg_core'
-gem 'pfrpg_skills', '>= 0.1.0'
-
-group :test do
-  gem 'minitest-rails'
-end
+gem 'pfrpg_skills', '>= 0.1.1'
+gem 'pfrpg_utility'

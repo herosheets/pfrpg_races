@@ -57,7 +57,7 @@ class PfrpgRaces::Race::HalfOrc < PfrpgRaces::Race
                        :description => "+2 racial bonus to intimidate skill checks",
                        :effects =>
                         [
-                          PfrpgCore::Effect.new("skill", "intimidate", 2)
+                          PfrpgUtility::Effect.new("skill", "intimidate", 2)
                         ]
                      ),
       PfrpgRaces::RacialTrait.new( :name => "Orc Blood",

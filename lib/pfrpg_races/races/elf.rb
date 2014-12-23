@@ -68,7 +68,7 @@ class PfrpgRaces::Race::Elf < PfrpgRaces::Race
                        :description => "+2 Perception",
                        :effects =>
                         [
-                          PfrpgCore::Effect.new("skill", "perception", 2)
+                          PfrpgUtility::Effect.new("skill", "perception", 2)
                         ]
                      )
   ]

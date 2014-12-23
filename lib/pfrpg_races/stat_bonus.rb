@@ -1,5 +1,5 @@
 class PfrpgRaces::StatBonus
-  include ::PfrpgCore::Affectable
+  include ::PfrpgUtility::Affectable
   attr_reader :stat, :bonus
   def initialize(stat, bonus)
     @stat = stat

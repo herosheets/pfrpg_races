@@ -61,24 +61,24 @@ class PfrpgRaces::Race::Halfling < PfrpgRaces::Race
                        :description => "+1 racial bonus to all saving throws",
                        :effects =>
                         [
-                          PfrpgCore::Effect.new("racial", "fort_save", 1),
-                          PfrpgCore::Effect.new("racial", "will_save", 1),
-                          PfrpgCore::Effect.new("racial", "ref_save", 1)
+                          PfrpgUtility::Effect.new("racial", "fort_save", 1),
+                          PfrpgUtility::Effect.new("racial", "will_save", 1),
+                          PfrpgUtility::Effect.new("racial", "ref_save", 1)
                         ]
                      ),
       PfrpgRaces::RacialTrait.new( :name => "Sure Footed",
                        :description => "+2 racial bonus on Acrobatic & Climb skill checks",
                        :effects =>
                         [
-                          PfrpgCore::Effect.new("skill", "climb", 2),
-                          PfrpgCore::Effect.new("skill", "acrobatics", 2)
+                          PfrpgUtility::Effect.new("skill", "climb", 2),
+                          PfrpgUtility::Effect.new("skill", "acrobatics", 2)
                         ]
                      ),
       PfrpgRaces::RacialTrait.new( :name => "Keen Senses",
                        :description => "+2 Perception",
                        :effects =>
                         [
-                          PfrpgCore::Effect.new("skill", "perception", 2)
+                          PfrpgUtility::Effect.new("skill", "perception", 2)
                         ]
                      )
     ]

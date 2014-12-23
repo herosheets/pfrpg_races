@@ -1,4 +1,4 @@
-module PfrpgRules
+module PfrpgRaces
 end
 
 require 'pfrpg_races/race'
